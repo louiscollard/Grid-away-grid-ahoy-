@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300&family=Merriweather:wght@300&family=Outfit:wght@300&family=Poppins:wght@100&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins";
+}
+
+body {
+	height: 100vh;
+	background-color: hsl(208, 45%, 93%);
+}
+
+h1 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+p {
+	color: hsl(212, 9%, 70%);
+	text-align: center;
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+hr {
+	width: 65px;
+	height: 1px;
+	background-color: hsl(212, 9%, 70%);
+}
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 30px 30px;
+	margin: 50px;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 390px;
+	width: 280px;
+	padding: 40px 20px 30px 20px;
+	border-radius: 10px;
+	background-color: white;
+}
